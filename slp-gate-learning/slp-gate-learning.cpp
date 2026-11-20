@@ -53,7 +53,7 @@ int main()
 
 			std::cout << "| " << x1 << " | " << x2 << " | " 
 				<< TRUTH_TABLE_OR[i] << " | " << answer << "          |" << std::endl;
-			std::cout << "+---+---+---+------------+" << std::endl;
+			std::cout << "+---+---+---+------------+" << std::endl << std::endl;
 		}
 		epoch++;
 	}
