@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="slp-gate-learning/slp-gate-learning.vcxproj" />
+  <Project Path="slp-gate-learning/slp-gate-learning.vcxproj" Id="f0d76e48-6189-485a-9edc-fb0daf5be604" />
 </Solution>
