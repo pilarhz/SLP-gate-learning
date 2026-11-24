@@ -21,15 +21,15 @@ void LearningGate(bool table[4])
 	unsigned int epoch = 1;
 	bool learning = true;
 	unsigned int count = 0;
-	int x1 = NULL; int x2 = NULL;
+	int x1 = 0; int x2 = 0;
 	int w1 = 0; int w2 = 0; int b = 0;
-	int output = NULL; int mistake = NULL;
-	bool answer = NULL;
+	int output = 0; int mistake = 0;
+	bool answer = 0;
 
 	while (learning)
 	{
 		std::cout << "======= Epoch -  " << epoch << " =======" << std::endl;
-		std::cout << "| a | b || y | slp ||" << std::endl;
+		std::cout << "| a | b || y | slp || w1 | w2 | b  |" << std::endl;
 		for (int i = 0; i < 4; i++)
 		{
 			x1 = INPUTS[i][0];
@@ -62,7 +62,7 @@ void LearningGate(bool table[4])
 		}
 		epoch++;
 	}
-	learning = true;
+	system("pause");
 }
 
 int main()
@@ -104,7 +104,6 @@ int main()
 			break;
 		}
 
-		system("pause");
 		system("cls");
 	}
 }
