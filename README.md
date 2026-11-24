@@ -5,10 +5,10 @@ A Single-Layer Perceptron(SLP) learns basic logic gates using the perceptron lea
 ## Gates
 | Gate | Learnable by SLP | Note                   |
 | ---- | :--------------: | ---------------------- |
-| AND  | ✅ | in work |
-| OR   | ✅ | works |
-| NAND | ✅ | in work |
-| NOR  | ✅ | in work |
+| AND  | ✅ |  |
+| OR   | ✅ |  |
+| NAND | ✅ |  |
+| NOR  | ✅ |  |
 | XOR  | ❌ | not linearly separable |
 | XNOR | ❌ | not linearly separable |
 
